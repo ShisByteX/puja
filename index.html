@@ -1,0 +1,1734 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amar Dugga | My Sharodiya Apology & Worship</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts: Cormorant Garamond, Plus Jakarta Sans, Rozha One -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,400;1,600&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Rozha+One&display=swap" rel="stylesheet">
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        sindoor: {
+                            DEFAULT: '#7A0C18',
+                            deep: '#4D060E',
+                            light: '#9E1B24',
+                            alta: '#D9232E'
+                        },
+                        kansa: {
+                            DEFAULT: '#D4AF37',
+                            light: '#F3E5AB',
+                            bright: '#FFD700',
+                            muted: '#8A6D3B'
+                        },
+                        shiuli: {
+                            DEFAULT: '#FFF9F2',
+                            cream: '#FDF1E0',
+                            orange: '#FF7F11'
+                        },
+                        charcoal: '#2C070B'
+                    },
+                    fontFamily: {
+                        serif: ['"Cormorant Garamond"', 'Georgia', 'serif'],
+                        sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+                        display: ['"Rozha One"', 'serif']
+                    },
+                    animation: {
+                        'spin-slow': 'spin 38s linear infinite',
+                        'spin-reverse-slow': 'spin-reverse 45s linear infinite',
+                        'float': 'float 4s ease-in-out infinite',
+                        'pulse-glow': 'pulse-glow 2.5s ease-in-out infinite',
+                        'flicker': 'flicker 1.8s infinite alternate',
+                    },
+                    keyframes: {
+                        'spin-reverse': {
+                            '0%': { transform: 'rotate(360deg)' },
+                            '100%': { transform: 'rotate(0deg)' }
+                        },
+                        'float': {
+                            '0%, 100%': { transform: 'translateY(0px)' },
+                            '50%': { transform: 'translateY(-10px)' }
+                        },
+                        'pulse-glow': {
+                            '0%, 100%': { filter: 'drop-shadow(0 0 8px rgba(255, 215, 0, 0.45))' },
+                            '50%': { filter: 'drop-shadow(0 0 20px rgba(255, 127, 17, 0.9))' }
+                        },
+                        'flicker': {
+                            '0%': { transform: 'scale(1) rotate(-2deg)', opacity: '0.92' },
+                            '50%': { transform: 'scale(1.08, 0.95) rotate(1deg)', opacity: '1' },
+                            '100%': { transform: 'scale(0.96, 1.06) rotate(2deg)', opacity: '0.88' }
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        :root {
+            --bg-primary: #7A0C18;
+            --gold-primary: #D4AF37;
+            --ivory: #FFF9F2;
+        }
+        body {
+            background-color: #5E0811;
+            background-image: 
+                radial-gradient(circle at 50% 15%, rgba(158, 27, 36, 0.9) 0%, rgba(94, 8, 17, 0.98) 70%, #3A0308 100%);
+            color: #FFF9F2;
+            overflow-x: hidden;
+            selection-background-color: #D4AF37;
+            selection-color: #2C070B;
+        }
+        /* Subtle Jamdani / Benarasi woven geometric overlay */
+        .benarasi-pattern {
+            background-image: radial-gradient(#D4AF37 0.75px, transparent 0.75px), radial-gradient(#D4AF37 0.75px, transparent 0.75px);
+            background-size: 32px 32px;
+            background-position: 0 0, 16px 16px;
+        }
+        /* Custom Scrollbar */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #3A0308;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: linear-gradient(180deg, #D4AF37, #9E1B24);
+            border-radius: 9999px;
+        }
+        /* 3D Flip Card styles */
+        .perspective-1000 {
+            perspective: 1000px;
+        }
+        .transform-style-3d {
+            transform-style: preserve-3d;
+            transition: transform 0.7s cubic-bezier(0.34, 1.56, 0.64, 1);
+        }
+        .backface-hidden {
+            backface-visibility: hidden;
+            -webkit-backface-visibility: hidden;
+        }
+        .rotate-y-180 {
+            transform: rotateY(180deg);
+        }
+        .flipped .transform-style-3d {
+            transform: rotateY(180deg);
+        }
+        /* Gold Shimmer Text */
+        .gold-gradient-text {
+            background: linear-gradient(135deg, #FFF9F2 0%, #F3E5AB 35%, #FFD700 65%, #D4AF37 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        /* Ornate Card Frame */
+        .alpona-card {
+            background: rgba(77, 6, 14, 0.78);
+            backdrop-filter: blur(14px);
+            border: 1px solid rgba(212, 175, 55, 0.38);
+            box-shadow: 0 18px 45px -12px rgba(20, 0, 3, 0.75), inset 0 0 24px rgba(212, 175, 55, 0.08);
+        }
+        .alpona-card:hover {
+            border-color: rgba(255, 215, 0, 0.65);
+        }
+        /* Diya Glow */
+        .diya-lit-glow {
+            filter: drop-shadow(0 0 16px rgba(255, 183, 0, 0.95)) drop-shadow(0 0 35px rgba(255, 102, 0, 0.75));
+        }
+        /* Wax Seal Pulse */
+        .wax-seal {
+            box-shadow: 0 6px 20px rgba(0,0,0,0.6), inset 0 2px 6px rgba(255,255,255,0.3);
+        }
+        /* Scratch Canvas Cursor */
+        .scratch-canvas {
+            touch-action: none;
+            cursor: crosshair;
+        }
+    </style>
+</head>
+
+<body class="font-sans antialiased selection:bg-kansa selection:text-charcoal relative min-h-screen">
+
+    <!-- Full-screen Ambient Shiuli & Marigold Flower Canvas -->
+    <canvas id="petalCanvas" class="fixed inset-0 pointer-events-none z-10"></canvas>
+
+    <!-- Decorative Background Benarasi Mesh -->
+    <div class="fixed inset-0 benarasi-pattern opacity-[0.07] pointer-events-none z-0"></div>
+
+    <!-- Top Floating Glassmorphic Festive Bar -->
+    <header class="fixed top-3 left-1/2 -translate-x-1/2 z-50 w-[95%] max-w-5xl">
+        <div class="alpona-card rounded-full px-4 py-2.5 sm:px-6 sm:py-3 flex items-center justify-between gap-2 border border-kansa/50 shadow-2xl">
+            <!-- Brand / Title -->
+            <div class="flex items-center gap-2.5">
+                <div class="w-8 h-8 rounded-full bg-gradient-to-br from-kansa to-shiuli-orange flex items-center justify-center text-charcoal font-display text-lg shadow-md">
+                    মা
+                </div>
+                <div>
+                    <span class="font-display text-sm sm:text-base tracking-wider text-kansa-light block leading-none">আমার দুর্গা • <span class="her-name-display">My Dugga</span></span>
+                    <span class="text-[10px] sm:text-xs text-shiuli/75 tracking-widest uppercase block mt-0.5">Sharodiya Love & Apology</span>
+                </div>
+            </div>
+
+            <!-- Live Anger-to-Pujo-Melt Meter (Interactive Status) -->
+            <div class="hidden md:flex items-center gap-3 bg-sindoor-deep/90 px-4 py-1.5 rounded-full border border-kansa/30">
+                <span id="moodEmoji" class="text-lg">😤</span>
+                <div class="w-36">
+                    <div class="flex justify-between text-[10px] uppercase tracking-wider font-semibold text-kansa-light mb-0.5">
+                        <span>Her Mood</span>
+                        <span id="moodLabel">Roudrani Mode (100% Angry)</span>
+                    </div>
+                    <div class="w-full h-2 bg-charcoal rounded-full overflow-hidden border border-kansa/30">
+                        <div id="moodProgressBar" class="h-full bg-gradient-to-r from-sindoor-alta via-shiuli-orange to-emerald-400 transition-all duration-700" style="width: 15%"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Action Controls: Sound & Name Personalizer -->
+            <div class="flex items-center gap-2">
+                <button id="audioToggleBtn" onclick="toggleFestiveAudio()" class="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-kansa/15 hover:bg-kansa/30 border border-kansa/50 text-kansa-light text-xs font-medium transition-all active:scale-95" title="Play Festive Pujo Dhak & Shankh">
+                    <span id="audioIcon">🔇</span>
+                    <span id="audioText" class="hidden sm:inline">Pujo Sound</span>
+                </button>
+                <button onclick="playShankhSound()" class="px-3 py-1.5 rounded-full bg-gradient-to-r from-kansa to-shiuli-orange text-charcoal font-bold text-xs shadow hover:brightness-110 transition-all active:scale-95" title="Blow Auspicious Shankh (Conch)">
+                    🐚 <span class="hidden sm:inline">Shankh</span>
+                </button>
+                <button onclick="openCustomizeModal()" class="p-1.5 sm:px-3 sm:py-1.5 rounded-full bg-sindoor-light/60 hover:bg-sindoor-light border border-kansa/40 text-shiuli text-xs transition-all" title="Customize Names">
+                    ✨ <span class="hidden lg:inline">Personalize</span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main class="relative z-20 pt-24 pb-20">
+        
+        <!-- HERO SECTION: THE SACRED SHRINE OF LOVE -->
+        <section class="relative min-h-[88vh] flex flex-col items-center justify-center px-4 sm:px-6 text-center max-w-5xl mx-auto">
+            
+            <!-- Ornate Top Alpona SVG Arch -->
+            <div class="w-full max-w-md mx-auto mb-3 opacity-85">
+                <svg viewBox="0 0 400 45" class="w-full h-auto fill-none stroke-kansa">
+                    <path d="M10 35 Q100 35 150 15 Q200 -5 250 15 Q300 35 390 35" stroke-width="1.5" stroke-dasharray="4 2"/>
+                    <path d="M60 35 Q140 35 175 20 Q200 8 225 20 Q260 35 340 35" stroke-width="2"/>
+                    <circle cx="200" cy="14" r="5" class="fill-kansa"/>
+                    <circle cx="165" cy="24" r="3" class="fill-shiuli-orange"/>
+                    <circle cx="235" cy="24" r="3" class="fill-shiuli-orange"/>
+                    <circle cx="130" cy="31" r="2.5" class="fill-kansa-light"/>
+                    <circle cx="270" cy="31" r="2.5" class="fill-kansa-light"/>
+                </svg>
+            </div>
+
+            <!-- Shubho Sharodiya Pill -->
+            <div class="inline-flex items-center gap-2 px-4 py-1 rounded-full bg-kansa/15 border border-kansa/40 text-kansa-light text-xs sm:text-sm tracking-[0.2em] uppercase mb-5 shadow-inner">
+                <span>🌸</span>
+                <span>শুভ শারদীয়া • Shubho Sharodiya, <span class="her-name-display font-semibold">My Love</span></span>
+                <span>🌸</span>
+            </div>
+
+            <!-- Central Animated Trinayani / Dashabhuja Mandala Emblem -->
+            <div class="relative w-64 h-64 sm:w-80 sm:h-80 flex items-center justify-center my-2 group cursor-pointer" onclick="triggerHeroBlessing(event)" title="Tap to offer Shiuli & Hibiscus flowers to my Queen">
+                <!-- Outer Rotating Alpona Mandala -->
+                <svg viewBox="0 0 260 260" class="absolute inset-0 w-full h-full animate-spin-slow opacity-45">
+                    <defs>
+                        <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" stop-color="#FFF9F2"/>
+                            <stop offset="50%" stop-color="#FFD700"/>
+                            <stop offset="100%" stop-color="#D4AF37"/>
+                        </linearGradient>
+                    </defs>
+                    <circle cx="130" cy="130" r="122" fill="none" stroke="url(#goldGrad)" stroke-width="1.2" stroke-dasharray="6 4"/>
+                    <circle cx="130" cy="130" r="108" fill="none" stroke="url(#goldGrad)" stroke-width="1.5"/>
+                    <!-- 12 Lotus Petals around the Mandala -->
+                    <g stroke="url(#goldGrad)" stroke-width="1.5" fill="rgba(212,175,55,0.08)">
+                        <path d="M130 6 C140 22 140 32 130 42 C120 32 120 22 130 6 Z"/>
+                        <path d="M130 6 C140 22 140 32 130 42 C120 32 120 22 130 6 Z" transform="rotate(30 130 130)"/>
+                        <path d="M130 6 C140 22 140 32 130 42 C120 32 120 22 130 6 Z" transform="rotate(60 130 130)"/>
+                        <path d="M130 6 C140 22 140 32 130 42 C120 32 120 22 130 6 Z" transform="rotate(90 130 130)"/>
+                        <path d="M130 6 C140 22 140 32 130 42 C120 32 120 22 130 6 Z" transform="rotate(120 130 130)"/>
+                        <path d="M130 6 C140 22 140 32 130 42 C120 32 120 22 130 6 Z" transform="rotate(150 130 130)"/>
+                        <path d="M130 6 C140 22 140 32 130 42 C120 32 120 22 130 6 Z" transform="rotate(180 130 130)"/>
+                        <path d="M130 6 C140 22 140 32 130 42 C120 32 120 22 130 6 Z" transform="rotate(210 130 130)"/>
+                        <path d="M130 6 C140 22 140 32 130 42 C120 32 120 22 130 6 Z" transform="rotate(240 130 130)"/>
+                        <path d="M130 6 C140 22 140 32 130 42 C120 32 120 22 130 6 Z" transform="rotate(270 130 130)"/>
+                        <path d="M130 6 C140 22 140 32 130 42 C120 32 120 22 130 6 Z" transform="rotate(300 130 130)"/>
+                        <path d="M130 6 C140 22 140 32 130 42 C120 32 120 22 130 6 Z" transform="rotate(330 130 130)"/>
+                    </g>
+                </svg>
+
+                <!-- Inner Reverse-Rotating Sacred Ring -->
+                <svg viewBox="0 0 220 220" class="absolute w-52 h-52 sm:w-64 sm:h-64 animate-spin-reverse-slow opacity-60">
+                    <circle cx="110" cy="110" r="92" fill="none" stroke="#FFD700" stroke-width="1" stroke-dasharray="3 6"/>
+                    <polygon points="110,22 132,85 198,85 145,124 165,188 110,148 55,188 75,124 22,85 88,85" fill="none" stroke="rgba(255,215,0,0.3)" stroke-width="1"/>
+                </svg>
+
+                <!-- Centerpiece: Artistic Maa Durga Trinayani & Mukut (Crown) Vector Art -->
+                <div class="relative z-10 w-44 h-44 sm:w-56 sm:h-56 rounded-full bg-gradient-to-b from-sindoor-light via-sindoor to-sindoor-deep border-2 border-kansa shadow-[0_0_50px_rgba(255,183,0,0.35)] flex flex-col items-center justify-center p-4 animate-float group-hover:scale-105 transition-transform">
+                    <svg viewBox="0 0 200 200" class="w-full h-full animate-pulse-glow">
+                        <!-- Shola Mukut (Traditional Bengali Crown Top) -->
+                        <path d="M100 18 L116 55 L145 35 L132 68 L162 60 L140 82 L60 82 L38 60 L68 68 L55 35 L84 55 Z" fill="none" stroke="#FFD700" stroke-width="2.5" stroke-linejoin="round"/>
+                        <circle cx="100" cy="15" r="4" fill="#FFD700"/>
+                        <circle cx="53" cy="33" r="3" fill="#FFF9F2"/>
+                        <circle cx="147" cy="33" r="3" fill="#FFF9F2"/>
+                        <path d="M55 82 Q100 72 145 82" fill="none" stroke="#FFF9F2" stroke-width="2"/>
+
+                        <!-- Third Eye (Trinayani) & Sindoor Bindi -->
+                        <path d="M100 78 C94 88 94 96 100 105 C106 96 106 88 100 78 Z" fill="none" stroke="#FFD700" stroke-width="2"/>
+                        <circle cx="100" cy="92" r="3.5" fill="#D9232E"/>
+                        <circle cx="100" cy="109" r="6.5" fill="#D9232E" stroke="#FFD700" stroke-width="1.5"/>
+
+                        <!-- Left Eye & Brow -->
+                        <path d="M40 112 Q65 96 86 112" fill="none" stroke="#FFD700" stroke-width="2.5" stroke-linecap="round"/>
+                        <path d="M44 122 Q65 109 84 122 Q65 133 44 122 Z" fill="#FFF9F2" stroke="#FFD700" stroke-width="2"/>
+                        <circle cx="65" cy="121" r="5.5" fill="#2C070B"/>
+                        <circle cx="67" cy="119" r="2" fill="#FFF9F2"/>
+                        <path d="M44 122 L35 117" stroke="#FFD700" stroke-width="2.5" stroke-linecap="round"/>
+
+                        <!-- Right Eye & Brow -->
+                        <path d="M114 112 Q135 96 160 112" fill="none" stroke="#FFD700" stroke-width="2.5" stroke-linecap="round"/>
+                        <path d="M116 122 Q135 109 156 122 Q135 133 116 122 Z" fill="#FFF9F2" stroke="#FFD700" stroke-width="2"/>
+                        <circle cx="135" cy="121" r="5.5" fill="#2C070B"/>
+                        <circle cx="137" cy="119" r="2" fill="#FFF9F2"/>
+                        <path d="M156 122 L165 117" stroke="#FFD700" stroke-width="2.5" stroke-linecap="round"/>
+
+                        <!-- Traditional Nath (Bengali Nose Ring) & Red Lips -->
+                        <path d="M98 124 L95 143 Q100 147 104 143" fill="none" stroke="#FFD700" stroke-width="2" stroke-linecap="round"/>
+                        <circle cx="113" cy="144" r="14" fill="none" stroke="#FFD700" stroke-width="2" stroke-dasharray="22 8"/>
+                        <circle cx="127" cy="144" r="2.8" fill="#D9232E"/>
+                        <circle cx="125" cy="152" r="2.2" fill="#FFF9F2"/>
+                        
+                        <!-- Graceful Smile -->
+                        <path d="M84 166 Q100 159 116 166 Q100 177 84 166 Z" fill="#D9232E" stroke="#FFD700" stroke-width="1.2"/>
+                        
+                        <!-- Alpona Chin Dots -->
+                        <circle cx="100" cy="183" r="2" fill="#FFD700"/>
+                        <circle cx="93" cy="182" r="1.3" fill="#FFF9F2"/>
+                        <circle cx="107" cy="182" r="1.3" fill="#FFF9F2"/>
+                    </svg>
+                    <span class="absolute -bottom-3 px-3 py-0.5 rounded-full bg-kansa text-charcoal font-bold text-[10px] tracking-widest uppercase shadow">
+                        Tap to Offer Pushpanjali
+                    </span>
+                </div>
+            </div>
+
+            <!-- Hero Typography Headline -->
+            <h1 class="font-serif text-4xl sm:text-6xl md:text-7xl font-bold tracking-tight leading-[1.08] mt-4 gold-gradient-text">
+                Every Pandal Has an Idol,<br>
+                <span class="italic font-normal text-shiuli">Wait—Mine Walks in</span> <span class="her-name-display underline decoration-kansa/60 decoration-wavy underline-offset-8">Your</span> <span class="italic font-normal text-shiuli">Shoes.</span>
+            </h1>
+
+            <!-- Emotional Subheadline -->
+            <p class="mt-6 text-base sm:text-xl text-shiuli/90 max-w-2xl mx-auto leading-relaxed font-normal">
+                I know you are upset with me for not being beside you this Durga Puja. Missing the pandal lights, your Ashtami saree, and holding your hand in the crowd hurts me more than words can say—because to me, <strong class="text-kansa-light font-semibold">you are my living Durga Mata</strong>, my Shakti, my peace, and even in your fierce anger, my favorite blessing.
+            </p>
+
+            <!-- Hero Interactive CTAs -->
+            <div class="mt-8 flex flex-wrap items-center justify-center gap-4">
+                <a href="#pradip-ritual" class="px-7 py-3.5 rounded-full bg-gradient-to-r from-kansa via-kansa-bright to-shiuli-orange text-charcoal font-bold text-sm sm:text-base shadow-[0_0_30px_rgba(255,215,0,0.45)] hover:scale-105 active:scale-95 transition-all flex items-center gap-2">
+                    <span>🪔</span>
+                    <span>Start Your 5-Day Puja Surprises</span>
+                </a>
+                <a href="#virtual-pandal" class="px-6 py-3.5 rounded-full alpona-card text-kansa-light hover:text-shiuli font-semibold text-sm sm:text-base hover:border-kansa transition-all flex items-center gap-2">
+                    <span>🥁</span>
+                    <span>Enter Our Virtual Pandal Date</span>
+                </a>
+            </div>
+
+            <!-- Quick Interactive Counter Pills -->
+            <div class="mt-10 grid grid-cols-3 gap-3 sm:gap-6 max-w-xl w-full">
+                <div class="alpona-card rounded-2xl p-3 text-center">
+                    <div id="statDiyas" class="font-serif text-2xl sm:text-3xl font-bold text-kansa-bright">0 / 5</div>
+                    <div class="text-[11px] sm:text-xs text-shiuli/75 uppercase tracking-wider mt-0.5">Pradips Lit</div>
+                </div>
+                <div class="alpona-card rounded-2xl p-3 text-center">
+                    <div id="statPushpanjali" class="font-serif text-2xl sm:text-3xl font-bold text-shiuli-orange">0</div>
+                    <div class="text-[11px] sm:text-xs text-shiuli/75 uppercase tracking-wider mt-0.5">Anjali Flowers</div>
+                </div>
+                <div class="alpona-card rounded-2xl p-3 text-center">
+                    <div id="statSurprises" class="font-serif text-2xl sm:text-3xl font-bold text-emerald-400">0 / 6</div>
+                    <div class="text-[11px] sm:text-xs text-shiuli/75 uppercase tracking-wider mt-0.5">Surprises Unlocked</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Ornamental Section Divider -->
+        <div class="max-w-4xl mx-auto px-6 my-12 flex items-center gap-4 opacity-70">
+            <div class="h-px flex-1 bg-gradient-to-r from-transparent via-kansa to-kansa"></div>
+            <span class="font-display text-kansa text-xl">❈ জয় মা দুর্গা ❈</span>
+            <div class="h-px flex-1 bg-gradient-to-l from-transparent via-kansa to-kansa"></div>
+        </div>
+
+        <section id="pradip-ritual" class="max-w-6xl mx-auto px-4 sm:px-6 py-10">
+            <div class="text-center max-w-3xl mx-auto mb-10">
+                <span class="text-xs font-bold uppercase tracking-[0.25em] text-shiuli-orange block mb-2">Surprise 01 • Sacred Aarti of Apology</span>
+                <h2 class="font-serif text-3xl sm:text-5xl font-bold gold-gradient-text">Light the 5 Pradips of Our Puja</h2>
+                <p class="mt-3 text-shiuli/85 text-sm sm:text-base">
+                    From Shashthi to Dashami, every single day I couldn't be there with you has a confession waiting inside these brass lamps. <strong class="text-kansa-light">Tap each unlit Pradip to light its flame</strong> and melt a little bit of your anger.
+                </p>
+            </div>
+
+            <!-- 5 Interactive Diyas Row -->
+            <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4 sm:gap-5" id="diyaGrid">
+                <!-- Populated dynamically via JS for crisp SVG state handling -->
+            </div>
+
+            <!-- Revealed Confession Display Card -->
+            <div id="diyaMessagePanel" class="mt-8 alpona-card rounded-3xl p-6 sm:p-8 border-2 border-kansa/50 transition-all duration-500 relative overflow-hidden">
+                <div class="flex flex-col md:flex-row items-center gap-6">
+                    <div id="activeDiyaBadge" class="w-16 h-16 sm:w-20 sm:h-20 rounded-2xl bg-gradient-to-br from-kansa/30 to-sindoor-deep border border-kansa flex flex-col items-center justify-center shrink-0 shadow-lg">
+                        <span class="text-2xl sm:text-3xl">🪔</span>
+                        <span id="activeDiyaDay" class="text-[10px] font-bold uppercase tracking-widest text-kansa-light mt-1">Tap a Lamp</span>
+                    </div>
+                    <div class="text-center md:text-left flex-1">
+                        <h3 id="activeDiyaTitle" class="font-serif text-2xl sm:text-3xl font-bold text-kansa-light">
+                            Touch Any Brass Pradip Above to Begin My Aarti for You...
+                        </h3>
+                        <p id="activeDiyaText" class="mt-2 text-shiuli/90 text-sm sm:text-lg leading-relaxed italic">
+                            "Each flame I light here is a silent prayer that your smile returns brighter than the Deshapriya Park or Ekdalia pandal chandeliers."
+                        </p>
+                        <div id="activeDiyaPromise" class="mt-3 inline-block px-3.5 py-1 rounded-full bg-kansa/20 border border-kansa/40 text-xs text-kansa-bright font-semibold">
+                            ✨ Light all 5 lamps to unlock the Maha-Aarti Sindoor Blessing!
+                        </div>
+                    </div>
+                    <button onclick="lightAllDiyasAtOnce()" class="px-4 py-2.5 rounded-xl bg-kansa/20 hover:bg-kansa/35 border border-kansa/50 text-kansa-light text-xs font-semibold shrink-0 transition-all">
+                        🔥 Light All 5 Together
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <section id="durga-avatars" class="max-w-6xl mx-auto px-4 sm:px-6 py-12">
+            <div class="text-center max-w-3xl mx-auto mb-10">
+                <span class="text-xs font-bold uppercase tracking-[0.25em] text-shiuli-orange block mb-2">Surprise 02 • Dashabhuja Devotion</span>
+                <h2 class="font-serif text-3xl sm:text-5xl font-bold gold-gradient-text">8 Reasons Why You Are Truly My Durga Mata</h2>
+                <p class="mt-3 text-shiuli/85 text-sm sm:text-base">
+                    People visit pandals to see the Goddess once a year. I get to love her every single day. <strong class="text-kansa-light">Tap any golden card below to flip it</strong> and see the divine Roop I worship in you.
+                </p>
+            </div>
+
+            <!-- 8 Flip Cards Grid -->
+            <div id="avatarCardsGrid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
+                <!-- Populated dynamically via JS -->
+            </div>
+        </section>
+
+        <section id="virtual-pandal" class="max-w-6xl mx-auto px-4 sm:px-6 py-12">
+            <div class="alpona-card rounded-3xl p-6 sm:p-10 border-2 border-kansa/60 relative overflow-hidden">
+                <!-- Decorative Corner Mandalas -->
+                <div class="text-center max-w-3xl mx-auto mb-8">
+                    <span class="px-3.5 py-1 rounded-full bg-sindoor-alta/30 border border-kansa/40 text-kansa-light text-xs font-bold uppercase tracking-widest">
+                        Surprise 03 • Since I Couldn't Take You Pandal Hopping...
+                    </span>
+                    <h2 class="font-serif text-3xl sm:text-5xl font-bold gold-gradient-text mt-3">
+                        I Built a Private Puja Mandap & Phuchka Stall Just for You
+                    </h2>
+                    <p class="mt-2 text-shiuli/85 text-sm sm:text-base">
+                        No sweaty crowds, no sore feet in new heels, and 100% of my attention on you. Let's do everything we missed right here!
+                    </p>
+                </div>
+
+                <!-- 3 Interactive Booths inside the Virtual Pandal -->
+                <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+                    
+                    <!-- Booth 1: Virtual Pushpanjali & Dhak -->
+                    <div class="bg-sindoor-deep/75 rounded-2xl p-6 border border-kansa/35 flex flex-col justify-between">
+                        <div>
+                            <div class="flex items-center justify-between mb-3">
+                                <span class="text-xs uppercase tracking-widest text-kansa font-bold">Mandap Ritual 01</span>
+                                <span class="text-2xl">🌺</span>
+                            </div>
+                            <h3 class="font-serif text-2xl font-bold text-shiuli">Anjali & Dhak Beats</h3>
+                            <p class="text-xs sm:text-sm text-shiuli/80 mt-2">
+                                Repeat after me: <em class="text-kansa-light">"Om Sarva Mangala Mangalye... please forgive your silly boyfriend who loves you endlessly!"</em>
+                            </p>
+                            <!-- Animated Dhak Visualizer -->
+                            <div id="dhakStage" class="my-5 h-28 rounded-xl bg-charcoal/80 border border-kansa/25 flex flex-col items-center justify-center relative overflow-hidden">
+                                <div id="dhakEmoji" class="text-5xl transition-transform duration-150">🥁</div>
+                                <p id="dhakChantText" class="text-xs text-kansa-light mt-2 font-medium px-3 text-center">
+                                    Tap below to play the Puja Dhak or shower Shiuli flowers!
+                                </p>
+                            </div>
+                        </div>
+                        <div class="grid grid-cols-2 gap-2.5 mt-2">
+                            <button onclick="offerPushpanjaliShower()" class="py-2.5 px-3 rounded-xl bg-gradient-to-r from-sindoor-alta to-shiuli-orange text-shiuli font-bold text-xs shadow hover:brightness-110 active:scale-95 transition-all">
+                                🌸 Shower Anjali
+                            </button>
+                            <button onclick="playDhakBeatInteractive()" class="py-2.5 px-3 rounded-xl bg-kansa text-charcoal font-bold text-xs shadow hover:brightness-110 active:scale-95 transition-all">
+                                🥁 Beat the Dhak
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Booth 2: Anger-Melting Phuchka & Mishti Platter -->
+                    <div class="bg-sindoor-deep/75 rounded-2xl p-6 border border-kansa/35 flex flex-col justify-between">
+                        <div>
+                            <div class="flex items-center justify-between mb-3">
+                                <span class="text-xs uppercase tracking-widest text-kansa font-bold">Mandap Treat 02</span>
+                                <span class="text-2xl">🥣</span>
+                            </div>
+                            <h3 class="font-serif text-2xl font-bold text-shiuli">Melt-Her-Anger Bhog & Phuchka</h3>
+                            <p class="text-xs sm:text-sm text-shiuli/80 mt-2">
+                                Scientific fact: No Bengali Queen can stay in Maa Kali mode after 6 spicy tetul-jol Phuchkas and warm Roshogolla. Tap to eat!
+                            </p>
+                            <!-- Treats Grid -->
+                            <div class="grid grid-cols-2 gap-2.5 my-4">
+                                <button onclick="feedVirtualTreat('Phuchka', 'Extra spicy tetul-jol & mashed aloo Phuchka served! 🌶️🤤', 18)" class="p-3 rounded-xl bg-charcoal/70 hover:bg-kansa/20 border border-kansa/30 text-left transition-all active:scale-95 group">
+                                    <div class="text-2xl group-hover:scale-110 transition-transform">🥟🌶️</div>
+                                    <div class="text-xs font-bold text-kansa-light mt-1">Spicy Phuchka</div>
+                                    <div class="text-[10px] text-shiuli/65">-18% Anger</div>
+                                </button>
+                                <button onclick="feedVirtualTreat('Mishti Doi', 'Chilled earthen-pot Nabadwip Mishti Doi for my sweetest Dugga! 🍯🤎', 20)" class="p-3 rounded-xl bg-charcoal/70 hover:bg-kansa/20 border border-kansa/30 text-left transition-all active:scale-95 group">
+                                    <div class="text-2xl group-hover:scale-110 transition-transform">🏺🍯</div>
+                                    <div class="text-xs font-bold text-kansa-light mt-1">Mishti Doi</div>
+                                    <div class="text-[10px] text-shiuli/65">-20% Anger</div>
+                                </button>
+                                <button onclick="feedVirtualTreat('Khichuri Bhog', 'Warm Ashtami Bhoger Khichuri, Labra & Tomato Khejur Chutney! 🍛✨', 22)" class="p-3 rounded-xl bg-charcoal/70 hover:bg-kansa/20 border border-kansa/30 text-left transition-all active:scale-95 group">
+                                    <div class="text-2xl group-hover:scale-110 transition-transform">🍛🙏</div>
+                                    <div class="text-xs font-bold text-kansa-light mt-1">Ashtami Bhog</div>
+                                    <div class="text-[10px] text-shiuli/65">-22% Anger</div>
+                                </button>
+                                <button onclick="feedVirtualTreat('Nolen Gurer Roshogolla', 'Hot spongy Roshogolla dripping in sweetness—just like you! 🍮💛', 25)" class="p-3 rounded-xl bg-charcoal/70 hover:bg-kansa/20 border border-kansa/30 text-left transition-all active:scale-95 group">
+                                    <div class="text-2xl group-hover:scale-110 transition-transform">🟠✨</div>
+                                    <div class="text-xs font-bold text-kansa-light mt-1">Roshogolla</div>
+                                    <div class="text-[10px] text-shiuli/65">-25% Anger</div>
+                                </button>
+                            </div>
+                        </div>
+                        <div id="treatFeedbackBox" class="px-3 py-2 rounded-xl bg-kansa/15 border border-kansa/30 text-xs text-kansa-light text-center">
+                            🍽️ Phuchka Counter Open! Tap any treat above (<span id="treatCount">0</span> eaten)
+                        </div>
+                    </div>
+
+                    <!-- Booth 3: Saree Compliment & Pandal Mirror -->
+                    <div class="bg-sindoor-deep/75 rounded-2xl p-6 border border-kansa/35 flex flex-col justify-between">
+                        <div>
+                            <div class="flex items-center justify-between mb-3">
+                                <span class="text-xs uppercase tracking-widest text-kansa font-bold">Mandap Mirror 03</span>
+                                <span class="text-2xl">🪞</span>
+                            </div>
+                            <h3 class="font-serif text-2xl font-bold text-shiuli">The Ashtami Saree Compliment Generator</h3>
+                            <p class="text-xs sm:text-sm text-shiuli/80 mt-2">
+                                Since I couldn't hype you up in person while you wore your Pujo outfit, press below for what my eyes are starving to tell you:
+                            </p>
+                            <div class="my-4 p-4 rounded-xl bg-charcoal/80 border border-kansa/40 min-h-[115px] flex items-center justify-center text-center">
+                                <p id="complimentOutput" class="font-serif italic text-base sm:text-lg text-kansa-light leading-snug">
+                                    "With kohl in your eyes, red par saree, and open hair, even the idol inside the pandal looks at you in awe."
+                                </p>
+                            </div>
+                        </div>
+                        <button onclick="generatePujoCompliment()" class="w-full py-3 px-4 rounded-xl bg-gradient-to-r from-kansa to-kansa-light text-charcoal font-bold text-xs uppercase tracking-wider shadow hover:brightness-110 active:scale-95 transition-all">
+                            ✨ Tell Me Another Reason I'm Stunning
+                        </button>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="love-letter" class="max-w-4xl mx-auto px-4 sm:px-6 py-12">
+            <div class="text-center mb-8">
+                <span class="text-xs font-bold uppercase tracking-[0.25em] text-shiuli-orange block mb-2">Surprise 04 • From My Heart to Your Feet</span>
+                <h2 class="font-serif text-3xl sm:text-5xl font-bold gold-gradient-text">A Sealed Sharodiya Letter for My Devi</h2>
+                <p class="mt-2 text-shiuli/80 text-sm sm:text-base">Tap the royal gold wax seal below to break it open.</p>
+            </div>
+
+            <!-- Interactive Envelope Container -->
+            <div class="relative">
+                <!-- Closed Envelope State -->
+                <div id="envelopeClosed" onclick="openLoveLetter()" class="alpona-card rounded-3xl p-8 sm:p-14 border-2 border-kansa/60 text-center cursor-pointer group hover:border-kansa-bright transition-all relative overflow-hidden">
+                    <!-- Envelope Flap Lines -->
+                    <div class="absolute inset-x-0 top-0 h-32 bg-gradient-to-b from-kansa/15 to-transparent pointer-events-none"></div>
+                    
+                    <p class="text-xs uppercase tracking-[0.3em] text-kansa-light mb-6">Confidential • For <span class="her-name-display font-bold">My Dugga</span> Only</p>
+                    
+                    <!-- Gold Wax Seal Button -->
+                    <div class="w-24 h-24 sm:w-28 sm:h-28 rounded-full bg-gradient-to-br from-sindoor-alta via-sindoor to-sindoor-deep border-4 border-kansa mx-auto flex flex-col items-center justify-center wax-seal group-hover:scale-110 transition-transform">
+                        <span class="font-display text-3xl text-kansa-bright">মা</span>
+                        <span class="text-[9px] uppercase tracking-widest text-kansa-light font-bold mt-0.5">Tap to Break</span>
+                    </div>
+
+                    <h3 class="font-serif text-2xl sm:text-3xl font-bold text-shiuli mt-6 group-hover:text-kansa-light transition-colors">
+                        "Why Missing You This Puja Broke My Heart..."
+                    </h3>
+                    <p class="text-xs sm:text-sm text-shiuli/70 mt-2">Click anywhere on the envelope to unseal my handwritten apology</p>
+                </div>
+
+                <!-- Opened Parchment Letter State (Hidden Initially) -->
+                <div id="envelopeOpened" class="hidden rounded-3xl bg-shiuli text-charcoal p-6 sm:p-12 border-4 border-kansa shadow-[0_25px_70px_rgba(0,0,0,0.85)] relative">
+                    <!-- Decorative Top Red Border (Lal Paar Saree motif) -->
+                    <div class="h-3 w-full bg-gradient-to-r from-sindoor via-sindoor-alta to-sindoor rounded-full mb-6 border border-kansa"></div>
+
+                    <div class="flex justify-between items-start flex-wrap gap-2 border-b border-sindoor/20 pb-4 mb-6">
+                        <div>
+                            <span class="text-xs uppercase tracking-widest text-sindoor font-bold block">Sharodiya Pujo Confession</span>
+                            <h3 class="font-serif text-2xl sm:text-4xl font-bold text-sindoor-deep mt-1">
+                                Amar Priyo <span class="her-name-display">Dugga</span>,
+                            </h3>
+                        </div>
+                        <span class="px-3 py-1 rounded-full bg-sindoor/10 text-sindoor font-serif italic text-sm">
+                            Written with all my love & guilt ❤️
+                        </span>
+                    </div>
+
+                    <div class="font-serif text-lg sm:text-xl leading-relaxed space-y-4 text-charcoal/90">
+                        <p>
+                            First of all, <strong>you have every right to be angry with me.</strong> Durga Puja is the time of year when the whole city dresses up in fairy lights, when the scent of Shiuli fills the morning air, and when couples walk hand-in-hand through crowded lanes. And instead of standing right beside you fixing your saree pleats and clicking 500 photos of you, I got stuck away from you.
+                        </p>
+                        <p>
+                            Every time I hear the sound of a Dhak or see a Puja light, I don't think of the pandals—I only think of <strong>your face</strong>. I think of how breathtaking you look when you get ready, how cute you look even when your nose turns red in anger at me, and how empty every celebration feels without your hand in mine.
+                        </p>
+                        <p class="p-4 rounded-2xl bg-sindoor/10 border-l-4 border-sindoor text-sindoor-deep font-semibold italic">
+                            "People bow before clay idols in pandals seeking strength, peace, and grace. I found all three the day you walked into my life. You are my real Durga Mata—my protector when I am weak, my calm when life is noisy, and the queen of my entire world."
+                        </p>
+                        <p>
+                            Please don't stay upset for long, amar Maa. I know a website cannot replace my arms around you today, so I have enclosed <strong>4 Official Puja Rin (Debt of Love) Golden Vouchers</strong> right below this letter. The moment we meet, I am paying back every missed moment with 100% interest!
+                        </p>
+                    </div>
+
+                    <div class="mt-8 pt-6 border-t border-sindoor/20 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+                        <div>
+                            <p class="text-xs uppercase tracking-widest text-sindoor/75 font-bold">Forever Your Devotee & Boyfriend,</p>
+                            <p class="font-serif text-2xl sm:text-3xl font-bold text-sindoor mt-0.5 my-name-display">Yours Truly ❤️</p>
+                        </div>
+                        <button onclick="scrollToVouchers()" class="px-6 py-3 rounded-full bg-sindoor text-shiuli font-bold text-xs sm:text-sm uppercase tracking-wider shadow-lg hover:bg-sindoor-light transition-all self-start sm:self-auto">
+                            🎁 Claim Your 4 Make-Up Vouchers Below ↓
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="love-vouchers" class="max-w-6xl mx-auto px-4 sm:px-6 py-12">
+            <div class="text-center max-w-3xl mx-auto mb-10">
+                <span class="text-xs font-bold uppercase tracking-[0.25em] text-shiuli-orange block mb-2">Surprise 05 • Official Compensation</span>
+                <h2 class="font-serif text-3xl sm:text-5xl font-bold gold-gradient-text">Scratch & Claim Your "Puja Debt" Vouchers</h2>
+                <p class="mt-3 text-shiuli/85 text-sm sm:text-base">
+                    Rub your finger or mouse across the <strong class="text-kansa-light">Royal Gold Foil</strong> on each card below (or click "Scratch All") to reveal what I legally owe you the day we meet!
+                </p>
+                <button onclick="revealAllVouchers()" class="mt-4 px-5 py-2 rounded-full bg-kansa/20 hover:bg-kansa/35 border border-kansa text-kansa-light text-xs font-bold uppercase tracking-widest transition-all">
+                    ✨ Instant Reveal All 4 Vouchers
+                </button>
+            </div>
+
+            <!-- 4 Scratch Cards Grid -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5" id="voucherGrid">
+                <!-- Populated dynamically with interactive Canvas scratch layers -->
+            </div>
+        </section>
+
+        <section id="forgiveness-altar" class="max-w-4xl mx-auto px-4 sm:px-6 py-14">
+            <div class="alpona-card rounded-3xl p-8 sm:p-12 border-2 border-kansa text-center relative overflow-hidden shadow-[0_0_60px_rgba(212,175,55,0.2)]">
+                
+                <div class="inline-flex items-center gap-2 px-4 py-1 rounded-full bg-kansa/20 border border-kansa/50 text-kansa-light text-xs uppercase tracking-widest mb-4">
+                    <span>🙏</span>
+                    <span>Final Surprise • Dashami Shanti Jal</span>
+                </div>
+
+                <h2 class="font-serif text-3xl sm:text-5xl font-bold gold-gradient-text">
+                    Bolo Amar Dugga, Maaf Korle Toh?
+                </h2>
+                <p class="mt-3 text-shiuli/90 text-base sm:text-lg max-w-xl mx-auto">
+                    Even Mahishasura got mercy at the feet of Maa Durga—and my only crime is loving and missing you like crazy! Will you forgive me and give me your sweetest Pujo smile?
+                </p>
+
+                <!-- Dynamic Pleading Bubble when she tries to click "Still Angry" -->
+                <div id="pleadingBubble" class="my-6 min-h-[48px] flex items-center justify-center">
+                    <span class="px-5 py-2 rounded-full bg-sindoor-deep/90 border border-kansa/40 text-kansa-light text-sm sm:text-base font-medium shadow-inner">
+                        🥺 Holding my ears and waiting for your blessing...
+                    </span>
+                </div>
+
+                <!-- Interactive Yes / Runaway No Buttons Arena -->
+                <div id="forgivenessArena" class="relative min-h-[130px] flex flex-wrap items-center justify-center gap-5 py-4">
+                    <button id="yesForgiveBtn" onclick="triggerGrandForgivenessFinale()" class="px-8 py-4 rounded-full bg-gradient-to-r from-emerald-500 via-kansa-bright to-shiuli-orange text-charcoal font-extrabold text-base sm:text-lg shadow-[0_0_35px_rgba(255,215,0,0.65)] hover:scale-110 active:scale-95 transition-all z-20">
+                        ❤️ Haan, Maaf Korlam! (I Forgive You!)
+                    </button>
+
+                    <button id="noAngryBtn" onmouseover="dodgeAngryButton(event)" ontouchstart="dodgeAngryButton(event)" onclick="dodgeAngryButton(event)" class="px-6 py-3.5 rounded-full bg-sindoor-deep border border-kansa/40 text-shiuli/80 font-semibold text-sm transition-all duration-200 z-20">
+                        😤 Still Angry at You!
+                    </button>
+                </div>
+
+                <!-- Grand Celebration Certificate (Revealed after clicking Forgive!) -->
+                <div id="grandFinaleCertificate" class="hidden mt-8 p-6 sm:p-10 rounded-3xl bg-gradient-to-b from-shiuli via-shiuli-cream to-kansa-light text-charcoal border-4 border-kansa shadow-2xl text-center animate-fade-in">
+                    <div class="text-4xl sm:text-5xl mb-2">🌺🥁🐚👑🌺</div>
+                    <span class="text-xs font-extrabold uppercase tracking-[0.25em] text-sindoor block">Shubho Bijoya & Eternal Bhalobasha</span>
+                    <h3 class="font-serif text-3xl sm:text-4xl font-bold text-sindoor-deep mt-1">
+                        She Smiled! My Durga Has Blessed Me!
+                    </h3>
+                    <p class="mt-3 text-charcoal/85 text-sm sm:text-base max-w-xl mx-auto leading-relaxed">
+                        Official Decree: <strong class="text-sindoor her-name-display">My Dearest Queen</strong> has officially granted Pujo Forgiveness to <strong class="text-sindoor my-name-display">Her Devoted Boyfriend</strong>, subject to immediate redemption of all 4 Puja Vouchers, unlimited hugs, and a full make-up date!
+                    </p>
+
+                    <div class="mt-6 p-4 rounded-2xl bg-sindoor/10 border border-sindoor/30 max-w-md mx-auto text-left text-xs sm:text-sm space-y-1.5 text-sindoor-deep">
+                        <div class="font-bold uppercase tracking-wider text-center mb-2">📜 Signed Promise Summary</div>
+                        <div>✅ <strong>Status:</strong> 100% Pujo Princess Mood Restored 🥰</div>
+                        <div>✅ <strong>Owed Treats:</strong> Unlimited Phuchka, Mishti & Saree Date</div>
+                        <div>✅ <strong>Validity:</strong> This birth + Next 7 Janams together</div>
+                    </div>
+
+                    <div class="mt-6 flex flex-wrap justify-center gap-3">
+                        <button onclick="launchMegaFlowerStorm()" class="px-6 py-3 rounded-full bg-sindoor text-shiuli font-bold text-xs sm:text-sm uppercase tracking-wider shadow-lg hover:bg-sindoor-light transition-all">
+                            🌸 Shower More Sindoor & Shiuli Flowers!
+                        </button>
+                        <button onclick="copyAcceptanceMessage()" class="px-6 py-3 rounded-full bg-charcoal text-kansa-light font-bold text-xs sm:text-sm uppercase tracking-wider shadow-lg hover:bg-charcoal/90 transition-all">
+                            💌 Copy "I Forgive You" Reply to Send Me
+                        </button>
+                    </div>
+                    <p id="copyToast" class="text-xs font-bold text-emerald-700 mt-3 hidden">
+                        ✨ Copied! Now paste & send it to him on WhatsApp/Instagram to make his whole Puja!
+                    </p>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="relative z-20 border-t border-kansa/30 bg-sindoor-deep/90 py-8 px-4 text-center text-xs text-shiuli/70">
+        <p class="font-serif italic text-base text-kansa-light mb-1">
+            "যতই দূরে থাকি আজ, আমার প্রতিটা অঞ্জলি শুধু তোমার নামের..."
+        </p>
+        <p>(No matter how far I am today, every single prayer of mine has only your name.)</p>
+        <p class="mt-3 text-[11px] text-shiuli/50">
+            Crafted with endless love for <span class="her-name-display text-kansa-light font-semibold">My Durga</span> • <button onclick="openCustomizeModal()" class="underline hover:text-kansa">Customize Names / Share Link</button>
+        </p>
+    </footer>
+
+    <!-- Personalize Names & Share Link Modal -->
+    <div id="customizeModal" class="fixed inset-0 z-50 bg-black/75 backdrop-blur-md hidden items-center justify-center p-4">
+        <div class="alpona-card rounded-3xl max-w-md w-full p-6 sm:p-8 border-2 border-kansa shadow-2xl relative">
+            <button onclick="closeCustomizeModal()" class="absolute top-4 right-4 w-8 h-8 rounded-full bg-kansa/20 text-kansa-light hover:bg-kansa/40 flex items-center justify-center font-bold">✕</button>
+            <span class="text-[11px] uppercase tracking-widest text-shiuli-orange font-bold">Make It Extra Personal</span>
+            <h3 class="font-serif text-2xl sm:text-3xl font-bold text-kansa-light mt-1">Customize Names & Link</h3>
+            <p class="text-xs text-shiuli/80 mt-1 mb-5">
+                Enter her pet name/real name and yours. You can also copy a custom link so it opens directly with her name!
+            </p>
+            <div class="space-y-4">
+                <div>
+                    <label class="block text-xs uppercase tracking-wider text-kansa-light mb-1 font-semibold">Her Name / Pet Name</label>
+                    <input id="inputHerName" type="text" placeholder="e.g., Riya / Amar Mishti / Puchku" class="w-full px-4 py-2.5 rounded-xl bg-charcoal/90 border border-kansa/50 text-shiuli text-sm focus:outline-none focus:border-kansa-bright">
+                </div>
+                <div>
+                    <label class="block text-xs uppercase tracking-wider text-kansa-light mb-1 font-semibold">Your Name</label>
+                    <input id="inputMyName" type="text" placeholder="e.g., Your Pagol / Rohan" class="w-full px-4 py-2.5 rounded-xl bg-charcoal/90 border border-kansa/50 text-shiuli text-sm focus:outline-none focus:border-kansa-bright">
+                </div>
+                <div class="flex flex-col sm:flex-row gap-2.5 pt-2">
+                    <button onclick="saveCustomNames()" class="flex-1 py-3 rounded-xl bg-gradient-to-r from-kansa to-shiuli-orange text-charcoal font-bold text-xs uppercase tracking-wider shadow">
+                        ✨ Apply Names Now
+                    </button>
+                    <button onclick="copyShareablePersonalizedLink()" class="flex-1 py-3 rounded-xl bg-kansa/20 hover:bg-kansa/35 border border-kansa text-kansa-light font-bold text-xs uppercase tracking-wider">
+                        🔗 Copy Custom Link
+                    </button>
+                </div>
+                <p id="modalCopyStatus" class="text-xs text-emerald-400 text-center hidden">
+                    ✅ Personalized link copied to clipboard!
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // ==========================================
+        // STATE & FESTIVE DATA DEFINITIONS
+        // ==========================================
+        const state = {
+            herName: "My Dugga",
+            myName: "Your Devoted Boyfriend",
+            angerScore: 85, // Starts at 85% angry, drops to 0% (100% melted) as she interacts!
+            pushpanjaliCount: 0,
+            treatsEaten: 0,
+            diyasLit: [false, false, false, false, false],
+            vouchersRevealed: [false, false, false, false],
+            surprisesUnlocked: new Set(),
+            audioEnabled: false,
+            audioCtx: null,
+            ambientInterval: null
+        };
+
+        // 5 Sacred Days of Durga Puja Pradips
+        const pujoDaysData = [
+            {
+                day: "Maha Shashthi",
+                bengali: "মহাষষ্ঠী • Bodhon",
+                title: "Shashthi: The Day the Goddess Awoke, and I Missed Your First Pujo Look",
+                confession: "On Shashthi, Maa Durga's face is unveiled at the pandal, and all I wanted was to unveil your smile in person. Forgive me for missing the start of our festivities—my heart was standing right outside your door.",
+                promise: "Shashthi Promise: One long evening drive with your favorite songs on loop."
+            },
+            {
+                day: "Maha Saptami",
+                bengali: "মহাসপ্তমী • Nabapatrika",
+                title: "Saptami: Every Street Lit Up, Except Mine Without You",
+                confession: "People walked miles seeing glowing pandals on Saptami, while I kept staring at your photos on my phone. No light decorator in Kolkata could ever match the glow on your cheeks when you laugh.",
+                promise: "Saptami Promise: I am holding your hand the entire time on our make-up date—no letting go!"
+            },
+            {
+                day: "Maha Ashtami",
+                bengali: "মহাষ্টমী • Pushpanjali",
+                title: "Ashtami: Missing You in Your Saree Is My Biggest Regret",
+                confession: "Ashtami Anjali is meant for offering flowers to the Goddess. So I closed my eyes and offered every single prayer for your happiness. Seeing you angry hurts, because in your Ashtami look, you truly rule my soul like Maa Rajrajeshwari.",
+                promise: "Ashtami Promise: A full personal photographer session whenever you wear a saree next!"
+            },
+            {
+                day: "Maha Navami",
+                bengali: "মহানবমী • Sandhi Puja",
+                title: "Navami: 108 Lotuses at Her Feet, and 1000 Apologies at Yours",
+                confession: "Just like Sri Ram offered 108 lotuses in Sandhi Puja to invoke Maa Durga's grace, I am offering every ounce of my love to melt your anger tonight. Even when you scold me, there is nobody else I would rather belong to.",
+                promise: "Navami Promise: Unlimited Phuchka, rolls, and late-night ice cream treat on me!"
+            },
+            {
+                day: "Vijaya Dashami",
+                bengali: "বিজয়া দশমী • Sindoor & Mishti",
+                title: "Dashami: No Visarjan for My Love—Only Eternal Bhalobasha",
+                confession: "Pandals bid farewell on Dashami, but my worship for you never ends. Let your anger dissolve like Dashami Visarjan, and let us start fresh with Mishti Mukh and the tightest hug waiting for you!",
+                promise: "Dashami Promise: Forehead kisses, Mishti Doi, and never letting you feel alone again."
+            }
+        ];
+
+        // 8 Forms of "Why You Are My Durga Mata"
+        const durgaAvatarsData = [
+            {
+                roop: "Maa Roudrani",
+                bengali: "মা রৌদ্রাণী",
+                frontSub: "When You Are Angry at Me",
+                icon: "🔥👑",
+                backTitle: "Even Your Anger Is Divine!",
+                backText: "Right now you're in fierce Mahishasuramardini mode because I couldn't meet you—and honestly? Even with flared nostrils and folded arms, you look so adorable that I willingly surrender all my weapons at your feet!"
+            },
+            {
+                roop: "Maa Katyayani",
+                bengali: "মা কাত্যায়নী",
+                frontSub: "In Your Traditional Pujo Look",
+                icon: "🌺✨",
+                backTitle: "My Living Ashtami Goddess",
+                backText: "When you put on a saree or kurta, line your eyes with kajal, and wear a bindi, time literally stops. Every pandal idol in the city comes second to the grace you carry effortlessly."
+            },
+            {
+                roop: "Maa Annapurna",
+                bengali: "মা অন্নপূর্ণা",
+                frontSub: "When You Ask 'Kheyecchish?'",
+                icon: "🍛💛",
+                backTitle: "The Nurturer of My Soul",
+                backText: "Even when you are busy or upset, the way you care if I've eaten, slept, or reached home safely makes me feel protected by the warmest divine love on earth."
+            },
+            {
+                roop: "Maa Shakti",
+                bengali: "মা শক্তি",
+                frontSub: "When Life Gets Tough for Me",
+                icon: "🔱🦁",
+                backTitle: "My Ten-Armed Strength",
+                backText: "On days when I feel exhausted or defeated by work and life, one voice note from you or five minutes of your faith in me puts the strength of ten armies back into my chest."
+            },
+            {
+                roop: "Maa Shanti-Dayini",
+                bengali: "মা শান্তিদায়িনী",
+                frontSub: "When You Rest Your Head on Me",
+                icon: "🪷🕊️",
+                backTitle: "My Ultimate Sanctuary",
+                backText: "The noisy world goes completely silent the moment you hold my hand. You are my peace, my safe harbor, and my favorite place to come home to."
+            },
+            {
+                roop: "Maa Hasi-Mukhi",
+                bengali: "মা হাসিমুখী",
+                frontSub: "When You Suddenly Giggle",
+                icon: "😊🌸",
+                backTitle: "Brighter Than Chandannagar Lights",
+                backText: "You try so hard to stay mad at me, and then that tiny smile breaks through at the corner of your lips. That smile is my real Shubho Sharodiya."
+            },
+            {
+                roop: "Maa Buddhi-Rupini",
+                bengali: "মা বুদ্ধিরূপিণী",
+                frontSub: "When You Guide & Scold Me",
+                icon: "📿🌟",
+                backTitle: "Always Smarter Than Me",
+                backText: "Let's be honest—99% of the time when we argue, you are right and I am just a stubborn idiot. Thank you for keeping my chaotic life on the right track!"
+            },
+            {
+                roop: "Maa Hridoy-Ishwari",
+                bengali: "মা হৃদয়েশ্বরী",
+                frontSub: "Today, Tomorrow & Forever",
+                icon: "❤️♾️",
+                backTitle: "The Permanent Queen of My Heart",
+                backText: "Pujo comes for five days in autumn, bestowing joy and leaving. But you live permanently on the throne of my heart—365 days a year, for every lifetime."
+            }
+        ];
+
+        // 4 Scratch-Off Make-Up Vouchers
+        const vouchersData = [
+            {
+                code: "PUJO-DEBT-01",
+                icon: "🥟🌶️",
+                title: "Unlimited Street Food & Phuchka Pass",
+                desc: "Redeemable for endless Phuchka, Egg Rolls, Mughlai Paratha & Mishti Doi on our next meetup. Bill 100% on me!"
+            },
+            {
+                code: "PUJO-DEBT-02",
+                icon: "📸👗",
+                title: "500+ Photos Personal Cameraman Duty",
+                desc: "Wear your Pujo outfit again for our special make-up date! I will click low-angle, candid & golden-hour photos until you approve!"
+            },
+            {
+                code: "PUJO-DEBT-03",
+                icon: "🫂💋",
+                title: "10-Minute Uninterrupted Tight Hug Tax",
+                desc: "Overdue interest for missing you this Puja: One super-long bone-crushing hug + forehead kisses the first second I see you."
+            },
+            {
+                code: "PUJO-DEBT-04",
+                icon: "👑✨",
+                title: "Instant 'Win Any Argument' Golden Card",
+                desc: "Valid anytime! Show this card to automatically win any future disagreement with zero counter-arguments from me."
+            }
+        ];
+
+        // Saree & Pujo Compliments Pool
+        const pujoCompliments = [
+            "\"With kohl in your eyes, red par saree, and open hair, even the idol inside the pandal looks at you in awe.\"",
+            "\"Chandannagar artisans spend months building light shows, yet your single smile outshines the entire street.\"",
+            "\"If devotion had a face, it would be mine looking at you while you fix your jhumkas.\"",
+            "\"Even when you frown at me in full Maa Kali mode, you are still the breathtaking girl I fell head over heels for.\"",
+            "\"The scent of Shiuli flowers in October air is only the second sweetest thing in Bengal—you are eternally first.\"",
+            "\"Forget pandal hopping; my favorite sightseeing spot in the universe is wherever you are standing.\""
+        ];
+
+        // Runaway "Still Angry" Button Pleading Lines
+        const pleadingLines = [
+            "😭 Arey Amar Maa! Don't be Maa Kali today, spare this poor devotee!",
+            "🥟 Wait! What if I add 20 extra spicy Phuchkas + Dahi Phuchka?!",
+            "🥺 Look, I am holding both my ears and doing sit-ups in my heart!",
+            "🥁 My heart is beating faster than the Ashtami Dhak! Press the green button please!",
+            "🌺 Even Mahishasura got mercy at Maa Durga's feet, I only missed one meetup!",
+            "🍫 I'll bring your favorite chocolates, Mishti Doi AND listen to all your rants!",
+            "😤 That button is broken by Maa Durga's divine blessing! Try the 'I Forgive You' button instead ❤️"
+        ];
+
+        // ==========================================
+        // WEB AUDIO API SYNTHESIZER (ZERO EXTERNAL MP3s)
+        // ==========================================
+        function ensureAudioContext() {
+            if (!state.audioCtx) {
+                const AudioContextClass = window.AudioContext || window.webkitAudioContext;
+                if (AudioContextClass) {
+                    state.audioCtx = new AudioContextClass();
+                }
+            }
+            if (state.audioCtx && state.audioCtx.state === 'suspended') {
+                state.audioCtx.resume();
+            }
+            return state.audioCtx;
+        }
+
+        // Play Temple Bell (Ghanta / Kansar Bell) when lighting a Diya or flipping a card
+        function playTempleBellSound(pitchMultiplier = 1) {
+            const ctx = ensureAudioContext();
+            if (!ctx) return;
+            const now = ctx.currentTime;
+            const freqs = [528 * pitchMultiplier, 1056 * pitchMultiplier, 1584 * pitchMultiplier];
+            freqs.forEach((f, idx) => {
+                const osc = ctx.createOscillator();
+                const gain = ctx.createGain();
+                osc.type = idx === 0 ? 'sine' : 'triangle';
+                osc.frequency.setValueAtTime(f, now);
+                gain.gain.setValueAtTime(0.14 / (idx + 1), now);
+                gain.gain.exponentialRampToValueAtTime(0.0008, now + 1.8 - idx * 0.3);
+                osc.connect(gain);
+                gain.connect(ctx.destination);
+                osc.start(now);
+                osc.stop(now + 1.9);
+            });
+        }
+
+        // Play Auspicious Shankh (Conch Shell) Sound
+        function playShankhSound() {
+            const ctx = ensureAudioContext();
+            if (!ctx) return;
+            const now = ctx.currentTime;
+            // Warm resonant harmonic chord mimicking a conch shell
+            const baseFreqs = [392, 394.5, 784];
+            baseFreqs.forEach((f, i) => {
+                const osc = ctx.createOscillator();
+                const gain = ctx.createGain();
+                osc.type = i === 2 ? 'sine' : 'sawtooth';
+                // Subtle filter for warm horn resonance
+                const filter = ctx.createBiquadFilter();
+                filter.type = 'lowpass';
+                filter.frequency.setValueAtTime(950, now);
+
+                osc.frequency.setValueAtTime(f * 0.92, now);
+                osc.frequency.linearRampToValueAtTime(f, now + 0.45);
+                osc.frequency.setValueAtTime(f, now + 1.8);
+                osc.frequency.linearRampToValueAtTime(f * 0.96, now + 2.5);
+
+                gain.gain.setValueAtTime(0.001, now);
+                gain.gain.linearRampToValueAtTime(i === 2 ? 0.08 : 0.045, now + 0.4);
+                gain.gain.setValueAtTime(i === 2 ? 0.08 : 0.045, now + 1.7);
+                gain.gain.exponentialRampToValueAtTime(0.0005, now + 2.6);
+
+                osc.connect(filter);
+                filter.connect(gain);
+                gain.connect(ctx.destination);
+                osc.start(now);
+                osc.stop(now + 2.65);
+            });
+            spawnPetalBurst(window.innerWidth / 2, 90, 22);
+        }
+
+        // Play Festive Dhak Drum Beat (Ta-Kurdum-Kurdum)
+        function playSingleDhakStroke(isLow = true) {
+            const ctx = ensureAudioContext();
+            if (!ctx) return;
+            const now = ctx.currentTime;
+            const osc = ctx.createOscillator();
+            const gain = ctx.createGain();
+            osc.type = 'triangle';
+            const startFreq = isLow ? 145 : 220;
+            const endFreq = isLow ? 58 : 95;
+            osc.frequency.setValueAtTime(startFreq, now);
+            osc.frequency.exponentialRampToValueAtTime(endFreq, now + 0.22);
+
+            gain.gain.setValueAtTime(0.28, now);
+            gain.gain.exponentialRampToValueAtTime(0.001, now + 0.26);
+
+            osc.connect(gain);
+            gain.connect(ctx.destination);
+            osc.start(now);
+            osc.stop(now + 0.28);
+        }
+
+        function playDhakRhythmSequence() {
+            const pattern = [
+                { delay: 0, low: false },
+                { delay: 180, low: true },
+                { delay: 340, low: true },
+                { delay: 560, low: false },
+                { delay: 740, low: true },
+                { delay: 900, low: true }
+            ];
+            pattern.forEach(hit => {
+                setTimeout(() => {
+                    playSingleDhakStroke(hit.low);
+                }, hit.delay);
+            });
+        }
+
+        function toggleFestiveAudio() {
+            state.audioEnabled = !state.audioEnabled;
+            const icon = document.getElementById('audioIcon');
+            const text = document.getElementById('audioText');
+            if (state.audioEnabled) {
+                icon.textContent = '🔊';
+                text.textContent = 'Dhak On';
+                playShankhSound();
+                setTimeout(() => playDhakRhythmSequence(), 900);
+                state.ambientInterval = setInterval(() => {
+                    if (state.audioEnabled) {
+                        playDhakRhythmSequence();
+                    }
+                }, 4200);
+            } else {
+                icon.textContent = '🔇';
+                text.textContent = 'Pujo Sound';
+                if (state.ambientInterval) clearInterval(state.ambientInterval);
+            }
+        }
+
+        // ==========================================
+        // SURPRISE 1: 5 SACRED PRADIPS (DIYAS)
+        // ==========================================
+        function renderDiyaGrid() {
+            const grid = document.getElementById('diyaGrid');
+            grid.innerHTML = pujoDaysData.map((item, idx) => {
+                const isLit = state.diyasLit[idx];
+                return `
+                    <div onclick="lightDiya(${idx}, event)" class="alpona-card rounded-2xl p-4 text-center cursor-pointer transition-all duration-300 hover:-translate-y-1 flex flex-col items-center justify-between ${isLit ? 'border-kansa-bright bg-kansa/15 shadow-[0_0_25px_rgba(255,183,0,0.3)]' : 'opacity-90 hover:opacity-100'}">
+                        <div class="w-full flex items-center justify-between text-[10px] uppercase tracking-wider text-kansa-light/80 font-bold mb-1">
+                            <span>Day 0${idx + 1}</span>
+                            <span>${isLit ? '✨ Lit' : 'Tap to Light'}</span>
+                        </div>
+
+                        <!-- Brass Pradip SVG with Flame -->
+                        <div class="relative w-24 h-24 flex items-center justify-center my-1 ${isLit ? 'diya-lit-glow' : ''}">
+                            <svg viewBox="0 0 120 120" class="w-full h-full">
+                                <!-- Glowing Halo when Lit -->
+                                ${isLit ? `<circle cx="60" cy="40" r="28" fill="rgba(255, 193, 7, 0.25)"/>` : ''}
+                                
+                                <!-- Animated Flame -->
+                                <g class="${isLit ? 'animate-flicker opacity-100' : 'opacity-15'} transition-opacity duration-500" style="transform-origin: 60px 58px;">
+                                    <path d="M60 16 C48 34 46 48 60 58 C74 48 72 34 60 16 Z" fill="#FF7F11"/>
+                                    <path d="M60 26 C53 38 52 48 60 56 C68 48 67 38 60 26 Z" fill="#FFD700"/>
+                                    <path d="M60 36 C56 43 56 49 60 54 C64 49 64 43 60 36 Z" fill="#FFF9F2"/>
+                                </g>
+
+                                <!-- Cotton Wick -->
+                                <path d="M58 56 L62 56 L64 64 L56 64 Z" fill="#D4AF37"/>
+
+                                <!-- Ornate Brass Bowl (Pradip) -->
+                                <path d="M20 62 Q60 70 100 62 C94 86 78 96 60 96 C42 96 26 86 20 62 Z" fill="url(#brassGrad${idx})" stroke="#FFD700" stroke-width="2"/>
+                                <!-- Base Stand -->
+                                <path d="M44 95 L76 95 L82 105 L38 105 Z" fill="#D4AF37" stroke="#FFD700" stroke-width="1.5"/>
+                                <!-- Alpona Dots on Bowl -->
+                                <circle cx="45" cy="78" r="2.2" fill="#FFF9F2"/>
+                                <circle cx="60" cy="80" r="2.8" fill="#D9232E"/>
+                                <circle cx="75" cy="78" r="2.2" fill="#FFF9F2"/>
+                                <defs>
+                                    <linearGradient id="brassGrad${idx}" x1="0%" y1="0%" x2="100%" y2="100%">
+                                        <stop offset="0%" stop-color="#F3E5AB"/>
+                                        <stop offset="50%" stop-color="#D4AF37"/>
+                                        <stop offset="100%" stop-color="#8A6D3B"/>
+                                    </linearGradient>
+                                </defs>
+                            </svg>
+                        </div>
+
+                        <div>
+                            <h4 class="font-serif text-lg font-bold text-kansa-light leading-tight">${item.day}</h4>
+                            <p class="text-[11px] text-shiuli/75 mt-0.5">${item.bengali}</p>
+                        </div>
+                    </div>
+                `;
+            }).join('');
+        }
+
+        function lightDiya(index, event) {
+            const wasAlreadyLit = state.diyasLit[index];
+            state.diyasLit[index] = true;
+            state.surprisesUnlocked.add('pradip');
+            
+            // Play temple bell with ascending pitch
+            playTempleBellSound(1 + index * 0.08);
+
+            if (!wasAlreadyLit) {
+                reduceHerAnger(12);
+                if (event && event.clientX) {
+                    spawnPetalBurst(event.clientX, event.clientY, 18);
+                }
+            }
+
+            // Update Confession Panel
+            const item = pujoDaysData[index];
+            document.getElementById('activeDiyaDay').textContent = item.day;
+            document.getElementById('activeDiyaTitle').textContent = item.title;
+            document.getElementById('activeDiyaText').textContent = `"${item.confession}"`;
+            document.getElementById('activeDiyaPromise').textContent = `💝 ${item.promise}`;
+
+            renderDiyaGrid();
+            updateDashboardStats();
+
+            // Check if all 5 are lit
+            const totalLit = state.diyasLit.filter(Boolean).length;
+            if (totalLit === 5 && !wasAlreadyLit) {
+                setTimeout(() => {
+                    playShankhSound();
+                    spawnPetalBurst(window.innerWidth / 2, window.innerHeight / 2, 45);
+                }, 400);
+            }
+        }
+
+        function lightAllDiyasAtOnce() {
+            pujoDaysData.forEach((_, idx) => {
+                setTimeout(() => {
+                    lightDiya(idx, { clientX: window.innerWidth / 2, clientY: window.innerHeight / 2 });
+                }, idx * 220);
+            });
+        }
+
+        // ==========================================
+        // SURPRISE 2: 8 AVATARS OF MY DURGA DECK
+        // ==========================================
+        function renderAvatarCards() {
+            const grid = document.getElementById('avatarCardsGrid');
+            grid.innerHTML = durgaAvatarsData.map((card, idx) => `
+                <div onclick="flipAvatarCard(this, ${idx}, event)" class="group h-64 perspective-1000 cursor-pointer select-none">
+                    <div class="relative w-full h-full transform-style-3d">
+                        
+                        <!-- Card Front -->
+                        <div class="absolute inset-0 w-full h-full backface-hidden alpona-card rounded-2xl p-5 flex flex-col items-center justify-between text-center border border-kansa/45 hover:border-kansa-bright transition-colors">
+                            <div class="w-full flex justify-between items-center text-[10px] uppercase tracking-widest text-kansa/80 font-bold">
+                                <span>Roop 0${idx + 1}</span>
+                                <span>Tap to Flip ↻</span>
+                            </div>
+                            <div class="my-auto">
+                                <div class="text-4xl mb-2 group-hover:scale-110 transition-transform">${card.icon}</div>
+                                <span class="font-display text-sm text-shiuli-orange block">${card.bengali}</span>
+                                <h3 class="font-serif text-2xl font-bold text-kansa-light mt-0.5">${card.roop}</h3>
+                                <p class="text-xs text-shiuli/80 mt-1">${card.frontSub}</p>
+                            </div>
+                            <div class="w-16 h-0.5 bg-gradient-to-r from-transparent via-kansa to-transparent"></div>
+                        </div>
+
+                        <!-- Card Back -->
+                        <div class="absolute inset-0 w-full h-full backface-hidden rotate-y-180 rounded-2xl p-5 bg-gradient-to-b from-kansa-light via-shiuli to-shiuli-cream text-charcoal border-2 border-kansa shadow-xl flex flex-col justify-between text-center">
+                            <div class="flex justify-between items-center text-[10px] uppercase tracking-widest text-sindoor font-extrabold">
+                                <span>${card.roop}</span>
+                                <span>❤️ My Devi</span>
+                            </div>
+                            <div class="my-auto">
+                                <h4 class="font-serif text-xl font-bold text-sindoor-deep mb-1.5">${card.backTitle}</h4>
+                                <p class="text-xs sm:text-[13px] text-charcoal/90 leading-relaxed font-medium">
+                                    "${card.backText}"
+                                </p>
+                            </div>
+                            <span class="text-[10px] uppercase tracking-widest text-sindoor/70 font-bold">Tap to flip back</span>
+                        </div>
+
+                    </div>
+                </div>
+            `).join('');
+        }
+
+        function flipAvatarCard(cardEl, idx, event) {
+            cardEl.classList.toggle('flipped');
+            state.surprisesUnlocked.add('avatars');
+            playTempleBellSound(1.15);
+            reduceHerAnger(5);
+            if (event && event.clientX) {
+                spawnPetalBurst(event.clientX, event.clientY, 10);
+            }
+            updateDashboardStats();
+        }
+
+        // ==========================================
+        // SURPRISE 3: VIRTUAL PANDAL & PHUCHKA STALL
+        // ==========================================
+        function offerPushpanjaliShower() {
+            state.pushpanjaliCount += 11;
+            state.surprisesUnlocked.add('pandal');
+            reduceHerAnger(10);
+            playTempleBellSound(1.25);
+            spawnPetalBurst(window.innerWidth / 2, window.innerHeight / 2, 35);
+            
+            const chants = [
+                "🌺 Offered 11 Hibiscus & Shiuli flowers at my Queen's feet!",
+                "🌸 'May her anger vanish and her sweetest smile return immediately!'",
+                "🙏 Pushpanjali accepted! You look 100x prettier when you smile!"
+            ];
+            document.getElementById('dhakChantText').textContent = chants[Math.floor(Math.random() * chants.length)];
+            updateDashboardStats();
+        }
+
+        function playDhakBeatInteractive() {
+            state.surprisesUnlocked.add('pandal');
+            playDhakRhythmSequence();
+            reduceHerAnger(8);
+            const dhakEl = document.getElementById('dhakEmoji');
+            dhakEl.classList.add('scale-125', '-rotate-12');
+            setTimeout(() => dhakEl.classList.remove('scale-125', '-rotate-12'), 350);
+            document.getElementById('dhakChantText').textContent = "🥁 Kurdum-Kurdum-Ta! Imagine us dancing Dhunuchi Naach together!";
+            updateDashboardStats();
+        }
+
+        function feedVirtualTreat(name, message, angerReduction) {
+            state.treatsEaten++;
+            state.surprisesUnlocked.add('pandal');
+            reduceHerAnger(angerReduction);
+            playTempleBellSound(1.3);
+            const box = document.getElementById('treatFeedbackBox');
+            box.innerHTML = `<span class="font-bold text-kansa-bright">${name}:</span> ${message} <span class="underline">(${state.treatsEaten} served)</span>`;
+            spawnPetalBurst(window.innerWidth / 2, window.innerHeight * 0.65, 14);
+            updateDashboardStats();
+        }
+
+        let complimentIndex = 0;
+        function generatePujoCompliment() {
+            state.surprisesUnlocked.add('pandal');
+            complimentIndex = (complimentIndex + 1) % pujoCompliments.length;
+            const out = document.getElementById('complimentOutput');
+            out.style.opacity = '0';
+            setTimeout(() => {
+                out.textContent = pujoCompliments[complimentIndex];
+                out.style.opacity = '1';
+            }, 180);
+            playTempleBellSound(1.1);
+            reduceHerAnger(7);
+            updateDashboardStats();
+        }
+
+        // ==========================================
+        // SURPRISE 4: WAX SEALED LOVE LETTER
+        // ==========================================
+        function openLoveLetter() {
+            state.surprisesUnlocked.add('letter');
+            document.getElementById('envelopeClosed').classList.add('hidden');
+            document.getElementById('envelopeOpened').classList.remove('hidden');
+            playShankhSound();
+            reduceHerAnger(18);
+            spawnPetalBurst(window.innerWidth / 2, window.innerHeight / 2, 30);
+            updateDashboardStats();
+        }
+
+        function scrollToVouchers() {
+            document.getElementById('love-vouchers').scrollIntoView({ behavior: 'smooth' });
+        }
+
+        // ==========================================
+        // SURPRISE 5: SCRATCH-OFF GOLD FOIL VOUCHERS
+        // ==========================================
+        function renderVouchers() {
+            const grid = document.getElementById('voucherGrid');
+            grid.innerHTML = vouchersData.map((v, idx) => `
+                <div class="alpona-card rounded-2xl p-5 border border-kansa/50 relative overflow-hidden flex flex-col justify-between h-64 select-none">
+                    <div class="flex justify-between items-center text-[10px] uppercase tracking-widest text-kansa font-bold">
+                        <span>${v.code}</span>
+                        <span id="voucherBadge${idx}" class="text-emerald-400">${state.vouchersRevealed[idx] ? '✅ Claimed' : 'Scratch Foil'}</span>
+                    </div>
+                    <div class="my-auto text-center">
+                        <div class="text-4xl mb-2">${v.icon}</div>
+                        <h3 class="font-serif text-xl font-bold text-kansa-light leading-snug">${v.title}</h3>
+                        <p class="text-xs text-shiuli/85 mt-2 leading-relaxed">${v.desc}</p>
+                    </div>
+                    <div class="text-[10px] text-center uppercase tracking-widest text-kansa-light/70 border-t border-kansa/25 pt-2">
+                        Signed: <span class="my-name-display font-bold">Your Boyfriend</span>
+                    </div>
+
+                    <!-- Gold Foil Scratch Overlay Canvas -->
+                    <canvas id="scratchCanvas${idx}" data-index="${idx}" class="scratch-canvas absolute inset-0 w-full h-full rounded-2xl transition-opacity duration-500 ${state.vouchersRevealed[idx] ? 'opacity-0 pointer-events-none' : 'opacity-100'}"></canvas>
+                </div>
+            `).join('');
+
+            // Initialize each scratch canvas
+            vouchersData.forEach((_, idx) => {
+                if (!state.vouchersRevealed[idx]) {
+                    initScratchCanvas(idx);
+                }
+            });
+        }
+
+        function initScratchCanvas(idx) {
+            const canvas = document.getElementById(`scratchCanvas${idx}`);
+            if (!canvas) return;
+            const rect = canvas.parentElement.getBoundingClientRect();
+            canvas.width = rect.width || 280;
+            canvas.height = rect.height || 256;
+            const ctx = canvas.getContext('2d');
+
+            // Paint Royal Gold Foil Gradient
+            const grad = ctx.createLinearGradient(0, 0, canvas.width, canvas.height);
+            grad.addColorStop(0, '#D4AF37');
+            grad.addColorStop(0.5, '#F3E5AB');
+            grad.addColorStop(1, '#9E7B26');
+            ctx.fillStyle = grad;
+            ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+            // Ornamental border on foil
+            ctx.strokeStyle = '#7A0C18';
+            ctx.lineWidth = 2;
+            ctx.strokeRect(10, 10, canvas.width - 20, canvas.height - 20);
+
+            // Foil Text
+            ctx.fillStyle = '#4D060E';
+            ctx.font = 'bold 13px "Plus Jakarta Sans", sans-serif';
+            ctx.textAlign = 'center';
+            ctx.fillText(`✨ PUJA IOU VOUCHER #0${idx + 1} ✨`, canvas.width / 2, canvas.height / 2 - 14);
+            ctx.font = 'italic 16px "Cormorant Garamond", serif';
+            ctx.fillText('Scratch or Tap Here to Reveal', canvas.width / 2, canvas.height / 2 + 12);
+
+            let isDrawing = false;
+            let scratchPoints = 0;
+
+            function scratchAt(x, y) {
+                ctx.globalCompositeOperation = 'destination-out';
+                ctx.beginPath();
+                ctx.arc(x, y, 26, 0, Math.PI * 2);
+                ctx.fill();
+                scratchPoints++;
+                if (scratchPoints > 16 && !state.vouchersRevealed[idx]) {
+                    completeVoucherReveal(idx);
+                }
+            }
+
+            canvas.addEventListener('mousedown', (e) => {
+                isDrawing = true;
+                const b = canvas.getBoundingClientRect();
+                scratchAt(e.clientX - b.left, e.clientY - b.top);
+            });
+            canvas.addEventListener('mousemove', (e) => {
+                if (!isDrawing) return;
+                const b = canvas.getBoundingClientRect();
+                scratchAt(e.clientX - b.left, e.clientY - b.top);
+            });
+            window.addEventListener('mouseup', () => { isDrawing = false; });
+
+            // Touch support
+            canvas.addEventListener('touchstart', (e) => {
+                isDrawing = true;
+                const b = canvas.getBoundingClientRect();
+                const t = e.touches[0];
+                scratchAt(t.clientX - b.left, t.clientY - b.top);
+            }, { passive: true });
+            canvas.addEventListener('touchmove', (e) => {
+                if (!isDrawing) return;
+                const b = canvas.getBoundingClientRect();
+                const t = e.touches[0];
+                scratchAt(t.clientX - b.left, t.clientY - b.top);
+            }, { passive: true });
+
+            // Quick click fallback for effortless mobile/desktop use
+            canvas.addEventListener('click', () => {
+                scratchPoints += 9;
+                if (scratchPoints >= 16 && !state.vouchersRevealed[idx]) {
+                    completeVoucherReveal(idx);
+                }
+            });
+        }
+
+        function completeVoucherReveal(idx) {
+            state.vouchersRevealed[idx] = true;
+            state.surprisesUnlocked.add('vouchers');
+            const canvas = document.getElementById(`scratchCanvas${idx}`);
+            if (canvas) {
+                canvas.classList.add('opacity-0', 'pointer-events-none');
+            }
+            const badge = document.getElementById(`voucherBadge${idx}`);
+            if (badge) badge.textContent = '✅ Claimed!';
+            playTempleBellSound(1.35);
+            reduceHerAnger(10);
+            updateDashboardStats();
+        }
+
+        function revealAllVouchers() {
+            vouchersData.forEach((_, idx) => {
+                if (!state.vouchersRevealed[idx]) {
+                    completeVoucherReveal(idx);
+                }
+            });
+            spawnPetalBurst(window.innerWidth / 2, window.innerHeight / 2, 25);
+        }
+
+        // ==========================================
+        // SURPRISE 6: FORGIVENESS ALTAR & RUNAWAY BUTTON
+        // ==========================================
+        let dodgeCounter = 0;
+        function dodgeAngryButton(e) {
+            if (e) e.preventDefault();
+            const btn = document.getElementById('noAngryBtn');
+            const yesBtn = document.getElementById('yesForgiveBtn');
+            const bubble = document.getElementById('pleadingBubble');
+
+            const line = pleadingLines[dodgeCounter % pleadingLines.length];
+            dodgeCounter++;
+
+            bubble.innerHTML = `
+                <span class="px-5 py-2 rounded-full bg-sindoor-alta/90 border border-kansa text-shiuli text-sm sm:text-base font-semibold shadow-lg animate-bounce">
+                    ${line}
+                </span>
+            `;
+
+            // Move the Angry button randomly within safe bounds
+            const offsetX = (Math.random() - 0.5) * 220;
+            const offsetY = (Math.random() - 0.5) * 90;
+            btn.style.transform = `translate(${offsetX}px, ${offsetY}px) scale(${Math.max(0.72, 1 - dodgeCounter * 0.04)})`;
+
+            // Make the Yes button slightly bigger and more irresistible
+            const yesScale = Math.min(1.22, 1 + dodgeCounter * 0.03);
+            yesBtn.style.transform = `scale(${yesScale})`;
+
+            playSingleDhakStroke(false);
+        }
+
+        function triggerGrandForgivenessFinale() {
+            state.surprisesUnlocked.add('forgiven');
+            state.angerScore = 0;
+            updateDashboardStats();
+
+            document.getElementById('grandFinaleCertificate').classList.remove('hidden');
+            document.getElementById('noAngryBtn').classList.add('hidden');
+            document.getElementById('pleadingBubble').innerHTML = `
+                <span class="px-5 py-2 rounded-full bg-emerald-600/90 border border-kansa-bright text-shiuli text-sm sm:text-base font-bold shadow-lg">
+                    🎉 জয় মা দুর্গা! She Forgave Me! Best Durga Puja Ever! ❤️
+                </span>
+            `;
+
+            playShankhSound();
+            setTimeout(() => playDhakRhythmSequence(), 600);
+            launchMegaFlowerStorm();
+
+            document.getElementById('grandFinaleCertificate').scrollIntoView({ behavior: 'smooth', block: 'center' });
+        }
+
+        function launchMegaFlowerStorm() {
+            for (let i = 0; i < 5; i++) {
+                setTimeout(() => {
+                    spawnPetalBurst(
+                        window.innerWidth * (0.2 + Math.random() * 0.6),
+                        window.innerHeight * (0.25 + Math.random() * 0.4),
+                        32
+                    );
+                }, i * 240);
+            }
+        }
+
+        function copyAcceptanceMessage() {
+            const textToCopy = `Shubho Sharodiya! 🌺 Okay fine, your Dugga has officially forgiven you! ❤️ Now get ready to pay back all 4 Puja Vouchers (especially the Phuchka & 10-minute tight hug) the moment we meet! 🥰🪔`;
+            const tempInput = document.createElement('textarea');
+            tempInput.value = textToCopy;
+            document.body.appendChild(tempInput);
+            tempInput.select();
+            document.execCommand('copy');
+            document.body.removeChild(tempInput);
+
+            const toast = document.getElementById('copyToast');
+            toast.classList.remove('hidden');
+        }
+
+        // ==========================================
+        // MOOD METER & DASHBOARD UPDATER
+        // ==========================================
+        function reduceHerAnger(amount) {
+            state.angerScore = Math.max(0, state.angerScore - amount);
+            updateDashboardStats();
+        }
+
+        function updateDashboardStats() {
+            const litCount = state.diyasLit.filter(Boolean).length;
+            document.getElementById('statDiyas').textContent = `${litCount} / 5`;
+            document.getElementById('statPushpanjali').textContent = state.pushpanjaliCount;
+            document.getElementById('statSurprises').textContent = `${state.surprisesUnlocked.size} / 6`;
+
+            // Mood Meter Calculation
+            const meltPercent = Math.min(100, Math.round(100 - state.angerScore));
+            const bar = document.getElementById('moodProgressBar');
+            const emoji = document.getElementById('moodEmoji');
+            const label = document.getElementById('moodLabel');
+
+            if (bar) bar.style.width = `${Math.max(12, meltPercent)}%`;
+
+            if (state.angerScore > 65) {
+                emoji.textContent = '😤';
+                label.textContent = 'Roudrani Mode (Angry)';
+            } else if (state.angerScore > 35) {
+                emoji.textContent = '🥺';
+                label.textContent = 'Anger Melting Slowly...';
+            } else if (state.angerScore > 10) {
+                emoji.textContent = '😊';
+                label.textContent = 'Blushing Pujo Queen!';
+            } else {
+                emoji.textContent = '🥰';
+                label.textContent = '100% Pujo Love Restored!';
+            }
+        }
+
+        function triggerHeroBlessing(event) {
+            state.pushpanjaliCount += 5;
+            state.surprisesUnlocked.add('hero');
+            playTempleBellSound(1.2);
+            reduceHerAnger(8);
+            const x = event ? event.clientX : window.innerWidth / 2;
+            const y = event ? event.clientY : window.innerHeight / 3;
+            spawnPetalBurst(x, y, 28);
+            updateDashboardStats();
+        }
+
+        // ==========================================
+        // PERSONALIZATION & URL PARAMS
+        // ==========================================
+        function loadNamesFromUrl() {
+            const params = new URLSearchParams(window.location.search);
+            const her = params.get('her');
+            const me = params.get('me');
+            if (her && her.trim()) state.herName = her.trim();
+            if (me && me.trim()) state.myName = me.trim();
+            applyNamesToDOM();
+        }
+
+        function applyNamesToDOM() {
+            document.querySelectorAll('.her-name-display').forEach(el => {
+                el.textContent = state.herName;
+            });
+            document.querySelectorAll('.my-name-display').forEach(el => {
+                el.textContent = state.myName;
+            });
+        }
+
+        function openCustomizeModal() {
+            document.getElementById('inputHerName').value = state.herName;
+            document.getElementById('inputMyName').value = state.myName;
+            document.getElementById('modalCopyStatus').classList.add('hidden');
+            const modal = document.getElementById('customizeModal');
+            modal.classList.remove('hidden');
+            modal.classList.add('flex');
+        }
+
+        function closeCustomizeModal() {
+            const modal = document.getElementById('customizeModal');
+            modal.classList.add('hidden');
+            modal.classList.remove('flex');
+        }
+
+        function saveCustomNames() {
+            const herVal = document.getElementById('inputHerName').value.trim();
+            const myVal = document.getElementById('inputMyName').value.trim();
+            if (herVal) state.herName = herVal;
+            if (myVal) state.myName = myVal;
+            applyNamesToDOM();
+            closeCustomizeModal();
+            spawnPetalBurst(window.innerWidth / 2, 100, 20);
+        }
+
+        function copyShareablePersonalizedLink() {
+            const herVal = document.getElementById('inputHerName').value.trim() || state.herName;
+            const myVal = document.getElementById('inputMyName').value.trim() || state.myName;
+            state.herName = herVal;
+            state.myName = myVal;
+            applyNamesToDOM();
+
+            const url = new URL(window.location.href);
+            url.searchParams.set('her', herVal);
+            url.searchParams.set('me', myVal);
+
+            const temp = document.createElement('textarea');
+            temp.value = url.toString();
+            document.body.appendChild(temp);
+            temp.select();
+            document.execCommand('copy');
+            document.body.removeChild(temp);
+
+            document.getElementById('modalCopyStatus').classList.remove('hidden');
+        }
+
+        // ==========================================
+        // HTML5 CANVAS SHIULI & MARIGOLD PETAL ENGINE
+        // ==========================================
+        const canvas = document.getElementById('petalCanvas');
+        const ctx = canvas.getContext('2d');
+        let ambientPetals = [];
+        let burstParticles = [];
+
+        function resizeCanvas() {
+            canvas.width = window.innerWidth;
+            canvas.height = window.innerHeight;
+        }
+        window.addEventListener('resize', resizeCanvas);
+
+        class ShiuliFlower {
+            constructor() {
+                this.reset(true);
+            }
+            reset(initial = false) {
+                this.x = Math.random() * canvas.width;
+                this.y = initial ? Math.random() * canvas.height : -30;
+                this.size = 6 + Math.random() * 7;
+                this.speedY = 0.55 + Math.random() * 1.1;
+                this.speedX = (Math.random() - 0.5) * 0.7;
+                this.angle = Math.random() * Math.PI * 2;
+                this.spin = (Math.random() - 0.5) * 0.02;
+                // 65% Shiuli flower (ivory petals + orange center), 35% Marigold / Gold Dust
+                this.type = Math.random() > 0.35 ? 'shiuli' : 'marigold';
+                this.opacity = 0.45 + Math.random() * 0.45;
+            }
+            update() {
+                this.y += this.speedY;
+                this.x += this.speedX + Math.sin(this.y * 0.012) * 0.35;
+                this.angle += this.spin;
+                if (this.y > canvas.height + 30) {
+                    this.reset(false);
+                }
+            }
+            draw() {
+                ctx.save();
+                ctx.translate(this.x, this.y);
+                ctx.rotate(this.angle);
+                ctx.globalAlpha = this.opacity;
+
+                if (this.type === 'shiuli') {
+                    // Draw 6 ivory petals of a Shiuli flower
+                    ctx.fillStyle = '#FFF9F2';
+                    for (let i = 0; i < 6; i++) {
+                        ctx.rotate(Math.PI / 3);
+                        ctx.beginPath();
+                        ctx.ellipse(0, this.size * 0.65, this.size * 0.28, this.size * 0.55, 0, 0, Math.PI * 2);
+                        ctx.fill();
+                    }
+                    // Sacred coral-orange center stalk
+                    ctx.beginPath();
+                    ctx.arc(0, 0, this.size * 0.32, 0, Math.PI * 2);
+                    ctx.fillStyle = '#FF7F11';
+                    ctx.fill();
+                } else {
+                    // Marigold / Sindoor Gold Petal
+                    ctx.fillStyle = '#FFD700';
+                    ctx.beginPath();
+                    ctx.ellipse(0, 0, this.size * 0.4, this.size * 0.75, 0, 0, Math.PI * 2);
+                    ctx.fill();
+                }
+                ctx.restore();
+            }
+        }
+
+        function spawnPetalBurst(x, y, count = 20) {
+            const colors = ['#FFF9F2', '#FF7F11', '#FFD700', '#D9232E', '#F3E5AB'];
+            for (let i = 0; i < count; i++) {
+                const angle = Math.random() * Math.PI * 2;
+                const speed = 1.8 + Math.random() * 5.5;
+                burstParticles.push({
+                    x,
+                    y,
+                    vx: Math.cos(angle) * speed,
+                    vy: Math.sin(angle) * speed - 1.8,
+                    size: 4 + Math.random() * 5,
+                    color: colors[Math.floor(Math.random() * colors.length)],
+                    alpha: 1,
+                    rotation: Math.random() * Math.PI,
+                    vRot: (Math.random() - 0.5) * 0.15
+                });
+            }
+        }
+
+        function animatePetals() {
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            ambientPetals.forEach(p => {
+                p.update();
+                p.draw();
+            });
+
+            for (let i = burstParticles.length - 1; i >= 0; i--) {
+                const b = burstParticles[i];
+                b.x += b.vx;
+                b.y += b.vy;
+                b.vy += 0.11; // soft gravity
+                b.rotation += b.vRot;
+                b.alpha -= 0.016;
+
+                if (b.alpha <= 0) {
+                    burstParticles.splice(i, 1);
+                    continue;
+                }
+
+                ctx.save();
+                ctx.translate(b.x, b.y);
+                ctx.rotate(b.rotation);
+                ctx.globalAlpha = b.alpha;
+                ctx.fillStyle = b.color;
+                ctx.beginPath();
+                ctx.ellipse(0, 0, b.size, b.size * 0.6, 0, 0, Math.PI * 2);
+                ctx.fill();
+                ctx.restore();
+            }
+
+            requestAnimationFrame(animatePetals);
+        }
+
+        // ==========================================
+        // INITIALIZE ON WINDOW LOAD
+        // ==========================================
+        window.onload = function () {
+            resizeCanvas();
+            loadNamesFromUrl();
+            renderDiyaGrid();
+            renderAvatarCards();
+            renderVouchers();
+            updateDashboardStats();
+
+            // Create 28 floating Shiuli & Marigold flowers
+            const count = window.innerWidth < 640 ? 16 : 28;
+            for (let i = 0; i < count; i++) {
+                ambientPetals.push(new ShiuliFlower());
+            }
+            animatePetals();
+        };
+    </script>
+</body>
+</html>
